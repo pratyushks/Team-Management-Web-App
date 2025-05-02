@@ -3,7 +3,7 @@
 This is a full-stack MERN (MongoDB, Express, React, Node.js) application to manage team members. It allows you to add, view, and remove team members with image uploads and details.
 
 ## 📁 Project Structure
-
+```
 root/
 │
 ├── backend/ # Express server & API
@@ -21,6 +21,7 @@ root/
 │
 ├── .gitignore
 └── README.md
+```
 
 ## ⚙️ Prerequisites
 
