@@ -5,8 +5,8 @@ import '../Homepage.css';
 const Home = () => {
   return (
     <div className="home-page">
-      <h1>TEAM FSD</h1>
-      <p>Welcome to the FSD Team Management</p>
+      <h1>TEAM APKK</h1>
+      <p>Welcome to the APKK Team Management</p>
 
       <div className="manage-card">
         <h2>Manage Team</h2>
