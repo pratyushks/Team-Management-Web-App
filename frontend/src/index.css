@@ -1,0 +1,23 @@
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 80vh; /* Take up most of the viewport height */
+  text-align: center;
+  padding: 20px;
+}
+
+.home-page h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #0c2d50; /* Example different color */
+}
+
+.home-page p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+

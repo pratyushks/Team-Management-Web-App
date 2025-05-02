@@ -1,0 +1,65 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #12161d; /* Dark background */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-page h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.home-page p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #d1d5db;
+}
+
+/* Card container */
+.manage-card {
+  background-color: #003c8f;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  text-align: center;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+/* Card title */
+.manage-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Buttons inside card */
+.manage-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.manage-buttons .button {
+  background-color: white;
+  color: #0a3d91;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.manage-buttons .button:hover {
+  background-color: #dbeafe;
+}
